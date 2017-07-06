@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ЭЛВИС</string>
+    <string name="title_activity_welcome">Добро пожаловать!</string>
+    <string name="next">СЛЕД</string>
+    <string name="skip">ДАЛEЕ</string>
+    <string name="start">Я ПОНЯЛ</string>
+
+    <string name="slide_1_title">Привет!</string>
+    <string name="slide_1_desc">Это приложение помогает помогать!</string>
+
+    <string name="slide_2_title">Помощь</string>
+    <string name="slide_2_desc">Каждый может помочь!</string>
+
+    <string name="slide_3_title">Облако</string>
+    <string name="slide_3_desc">Все данные синхронизируются онлайн!</string>
+
+    <string name="slide_4_title">Ты супергерой</string>
+    <string name="slide_4_desc">Начни сейчас!</string>
+
+    <string name="play_again_desc">Чтобы в последствии просмотреть это знакомство откройте настройки</string>
+    <string name="play_again">Сначала</string>
+    <string name="register">Подать заявку</string>
+    <string name="change">Изменить</string>
+    <string name="pick_date">Дата рождения</string>
+    <string name="title_activity_main">Элвис</string>
+    <string name="action_settings">Настройки</string>
+    <string name="section_format"></string>
+</resources>

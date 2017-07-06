@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <ImageView android:src="@drawable/ic_blood"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal" />
+
+
+        <EditText android:id="@+id/input_surname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:textColor="#f55"
+                android:textColorHint="#f55"
+                android:hint="Фамилия" />
+        <EditText android:id="@+id/input_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#f55"
+            android:textColorHint="#f55"
+            android:inputType="textPersonName"
+            android:hint="Имя" />
+        <EditText android:id="@+id/input_second_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#f55"
+            android:textColorHint="#f55"
+            android:inputType="textPersonName"
+            android:hint="Отчество" />
+        <Button
+            android:id="@+id/date_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pick_date"
+            android:background="@color/dot_dark_screen1"
+            android:onClick="showDatePickerDialog" />
+        <EditText android:id="@+id/input_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#f55"
+            android:textColorHint="#f55"
+            android:inputType="phone"
+            android:hint="Телефон"/>
+        <EditText android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#f55"
+            android:textColorHint="#f55"
+            android:inputType="textEmailAddress"
+            android:hint="Email"/>
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="@color/dot_dark_screen1"
+            android:padding="12dp"
+            android:onClick="send_application"
+            android:text="@string/register"/>
+
+
+    </LinearLayout>
+</ScrollView>

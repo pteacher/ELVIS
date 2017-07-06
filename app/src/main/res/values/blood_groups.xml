@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blood_groups">
+        <item>O(I) Rh−</item>
+        <item>O(I) Rh+</item>
+        <item>A(II) Rh−</item>
+        <item>A(II) Rh+</item>
+        <item>B(III) Rh−</item>
+        <item>B(III) Rh+</item>
+        <item>AB(IV) Rh−</item>
+        <item>AB(IV) Rh+</item>
+    </string-array>
+</resources>
